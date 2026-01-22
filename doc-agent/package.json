@@ -1,0 +1,10 @@
+{
+  "name": "doc-agent",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  }
+}

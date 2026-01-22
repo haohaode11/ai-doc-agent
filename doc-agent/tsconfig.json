@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* ===== Node + ESM 官方推荐 ===== */
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* ===== 目录结构 ===== */
+    "rootDir": "src",
+    "outDir": "dist",
+
+    /* ===== 类型系统 ===== */
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* ===== 构建与运行体验 ===== */
+    "resolveJsonModule": true,
+    "noEmitOnError": true,
+
+    /* ===== 调试 ===== */
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
